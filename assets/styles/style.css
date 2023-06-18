@@ -108,6 +108,11 @@ header a.nav-logo {
   color: #fff;
 }
 @media (max-width: 700px) {
+  header a.nav-logo {
+    visibility: hidden !important;
+  }
+}
+@media (max-width: 700px) {
   header .nav-ul {
     display: none !important;
   }
